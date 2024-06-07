@@ -27,7 +27,7 @@ namespace Personel_Kayit1_App
             SqlDataReader dr1 = g1.ExecuteReader();
             while (dr1.Read())
             {
-                chart1.Series["Sehirler"].Points.AddXY(dr1[0], dr1[1]);
+                chart1.Series["Cities"].Points.AddXY(dr1[0], dr1[1]);
             }
             baglanti.Close();
 
@@ -37,7 +37,7 @@ namespace Personel_Kayit1_App
             SqlDataReader dr2 = g2.ExecuteReader();
             while (dr2.Read())
             {
-                chart2.Series["Meslek-Maas"].Points.AddXY(dr2[0], dr2[1]);
+                chart2.Series["Job-Salary"].Points.AddXY(dr2[0], dr2[1]);
             }
             baglanti.Close();
         }

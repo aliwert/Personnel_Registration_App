@@ -45,11 +45,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(80, 60);
+            this.label1.Location = new System.Drawing.Point(56, 60);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(208, 24);
+            this.label1.Size = new System.Drawing.Size(232, 24);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Toplam Personel Sayısı:";
+            this.label1.Text = "Total number of personnel";
             // 
             // LblToplamPersonel
             // 
@@ -64,20 +64,20 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(114, 111);
+            this.label3.Location = new System.Drawing.Point(29, 111);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(174, 24);
+            this.label3.Size = new System.Drawing.Size(259, 24);
             this.label3.TabIndex = 2;
-            this.label3.Text = "Evli Personel Sayısı:";
+            this.label3.Text = "Number of married personnel";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(95, 164);
+            this.label4.Location = new System.Drawing.Point(46, 164);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(193, 24);
+            this.label4.Size = new System.Drawing.Size(242, 24);
             this.label4.TabIndex = 3;
-            this.label4.Text = "Bekar Personel Sayısı:";
+            this.label4.Text = "Number of single personnel";
             // 
             // LblEvliPersonel
             // 
@@ -102,11 +102,11 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(176, 213);
+            this.label7.Location = new System.Drawing.Point(140, 213);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(112, 24);
+            this.label7.Size = new System.Drawing.Size(148, 24);
             this.label7.TabIndex = 6;
-            this.label7.Text = "Şehir Sayısı:";
+            this.label7.Text = "Number of cities";
             // 
             // LblSehirSayisi
             // 
@@ -122,7 +122,7 @@
             // 
             this.LblToplamMaas.AutoSize = true;
             this.LblToplamMaas.Font = new System.Drawing.Font("Corbel", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.LblToplamMaas.Location = new System.Drawing.Point(312, 272);
+            this.LblToplamMaas.Location = new System.Drawing.Point(312, 261);
             this.LblToplamMaas.Name = "LblToplamMaas";
             this.LblToplamMaas.Size = new System.Drawing.Size(20, 24);
             this.LblToplamMaas.TabIndex = 9;
@@ -131,17 +131,17 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(161, 272);
+            this.label10.Location = new System.Drawing.Point(161, 261);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(127, 24);
+            this.label10.Size = new System.Drawing.Size(115, 24);
             this.label10.TabIndex = 8;
-            this.label10.Text = "Toplam Maaş:";
+            this.label10.Text = "Total Salary:";
             // 
             // LblOrtalamaMaas
             // 
             this.LblOrtalamaMaas.AutoSize = true;
             this.LblOrtalamaMaas.Font = new System.Drawing.Font("Corbel", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.LblOrtalamaMaas.Location = new System.Drawing.Point(312, 325);
+            this.LblOrtalamaMaas.Location = new System.Drawing.Point(312, 313);
             this.LblOrtalamaMaas.Name = "LblOrtalamaMaas";
             this.LblOrtalamaMaas.Size = new System.Drawing.Size(20, 24);
             this.LblOrtalamaMaas.TabIndex = 11;
@@ -150,11 +150,11 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(144, 325);
+            this.label12.Location = new System.Drawing.Point(144, 313);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(144, 24);
+            this.label12.Size = new System.Drawing.Size(142, 24);
             this.label12.TabIndex = 10;
-            this.label12.Text = "Ortalama Maaş:";
+            this.label12.Text = "Average Salary:";
             // 
             // FormStatistics
             // 

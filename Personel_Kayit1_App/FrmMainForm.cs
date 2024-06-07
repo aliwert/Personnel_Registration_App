@@ -56,7 +56,7 @@ namespace Personel_Kayit1_App
             komut.Parameters.AddWithValue("@p6", label8.Text);
             komut.ExecuteNonQuery();
             baglanti.Close();
-            MessageBox.Show("Personel Eklendi");
+            MessageBox.Show("Personel succesfully added");
         }
 
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
@@ -114,7 +114,7 @@ namespace Personel_Kayit1_App
             komutsil.ExecuteNonQuery();
 
             baglanti.Close();
-            MessageBox.Show("Kayit silindi");
+            MessageBox.Show("Information deleted");
         }
 
         private void BtnGuncelle_Click(object sender, EventArgs e)
@@ -133,7 +133,7 @@ namespace Personel_Kayit1_App
 
             baglanti.Close();
 
-            MessageBox.Show("Personel Bilgi Guncellendi");
+            MessageBox.Show("Personnel information updated");
 
         }
 

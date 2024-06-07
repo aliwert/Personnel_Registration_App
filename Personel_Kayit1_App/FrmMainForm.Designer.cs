@@ -110,15 +110,15 @@ namespace Personel_Kayit1_App
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(79, 313);
+            this.label7.Location = new System.Drawing.Point(95, 313);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(68, 28);
+            this.label7.Size = new System.Drawing.Size(77, 28);
             this.label7.TabIndex = 15;
-            this.label7.Text = "Maas:";
+            this.label7.Text = "Salary:";
             // 
             // MskMaas
             // 
-            this.MskMaas.Location = new System.Drawing.Point(146, 305);
+            this.MskMaas.Location = new System.Drawing.Point(178, 305);
             this.MskMaas.Mask = "0000";
             this.MskMaas.Name = "MskMaas";
             this.MskMaas.Size = new System.Drawing.Size(173, 36);
@@ -128,40 +128,40 @@ namespace Personel_Kayit1_App
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(219, 367);
+            this.radioButton2.Location = new System.Drawing.Point(301, 367);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(88, 32);
+            this.radioButton2.Size = new System.Drawing.Size(91, 32);
             this.radioButton2.TabIndex = 13;
             this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Bekar";
+            this.radioButton2.Text = "Single";
             this.radioButton2.UseVisualStyleBackColor = true;
             this.radioButton2.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
             // 
             // radioButton1
             // 
             this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(146, 367);
+            this.radioButton1.Location = new System.Drawing.Point(190, 367);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(67, 32);
+            this.radioButton1.Size = new System.Drawing.Size(107, 32);
             this.radioButton1.TabIndex = 12;
             this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Evli";
+            this.radioButton1.Text = "Married";
             this.radioButton1.UseVisualStyleBackColor = true;
             this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(56, 433);
+            this.label6.Location = new System.Drawing.Point(121, 433);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(84, 28);
+            this.label6.Size = new System.Drawing.Size(51, 28);
             this.label6.TabIndex = 11;
-            this.label6.Text = "Meslek:";
+            this.label6.Text = "Job:";
             // 
             // CmbSehir
             // 
             this.CmbSehir.FormattingEnabled = true;
-            this.CmbSehir.Location = new System.Drawing.Point(146, 243);
+            this.CmbSehir.Location = new System.Drawing.Point(178, 243);
             this.CmbSehir.Name = "CmbSehir";
             this.CmbSehir.Size = new System.Drawing.Size(173, 36);
             this.CmbSehir.TabIndex = 4;
@@ -169,33 +169,33 @@ namespace Personel_Kayit1_App
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(56, 371);
+            this.label5.Location = new System.Drawing.Point(30, 367);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(84, 28);
+            this.label5.Size = new System.Drawing.Size(142, 28);
             this.label5.TabIndex = 10;
-            this.label5.Text = "Durum:";
+            this.label5.Text = "Marial Status:";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(79, 251);
+            this.label4.Location = new System.Drawing.Point(116, 251);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(67, 28);
+            this.label4.Size = new System.Drawing.Size(56, 28);
             this.label4.TabIndex = 6;
-            this.label4.Text = "Sehir:";
+            this.label4.Text = "City:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(63, 186);
+            this.label2.Location = new System.Drawing.Point(68, 186);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(77, 28);
+            this.label2.Size = new System.Drawing.Size(104, 28);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Soyad:";
+            this.label2.Text = "Surname:";
             // 
             // TxtAd
             // 
-            this.TxtAd.Location = new System.Drawing.Point(146, 106);
+            this.TxtAd.Location = new System.Drawing.Point(178, 106);
             this.TxtAd.Name = "TxtAd";
             this.TxtAd.Size = new System.Drawing.Size(173, 36);
             this.TxtAd.TabIndex = 2;
@@ -203,29 +203,29 @@ namespace Personel_Kayit1_App
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(11, 114);
+            this.label3.Location = new System.Drawing.Point(0, 114);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(129, 28);
+            this.label3.Size = new System.Drawing.Size(172, 28);
             this.label3.TabIndex = 4;
-            this.label3.Text = "Personel Ad:";
+            this.label3.Text = "Personnel Name:";
             // 
             // TxtSoyad
             // 
-            this.TxtSoyad.Location = new System.Drawing.Point(146, 178);
+            this.TxtSoyad.Location = new System.Drawing.Point(178, 178);
             this.TxtSoyad.Name = "TxtSoyad";
             this.TxtSoyad.Size = new System.Drawing.Size(173, 36);
             this.TxtSoyad.TabIndex = 3;
             // 
             // TxtMeslek
             // 
-            this.TxtMeslek.Location = new System.Drawing.Point(146, 425);
+            this.TxtMeslek.Location = new System.Drawing.Point(178, 425);
             this.TxtMeslek.Name = "TxtMeslek";
             this.TxtMeslek.Size = new System.Drawing.Size(173, 36);
             this.TxtMeslek.TabIndex = 6;
             // 
             // Txtid
             // 
-            this.Txtid.Location = new System.Drawing.Point(146, 44);
+            this.Txtid.Location = new System.Drawing.Point(178, 44);
             this.Txtid.Name = "Txtid";
             this.Txtid.Size = new System.Drawing.Size(173, 36);
             this.Txtid.TabIndex = 1;
@@ -261,7 +261,7 @@ namespace Personel_Kayit1_App
             this.BtnGrafik.Name = "BtnGrafik";
             this.BtnGrafik.Size = new System.Drawing.Size(155, 41);
             this.BtnGrafik.TabIndex = 8;
-            this.BtnGrafik.Text = "Grafikler";
+            this.BtnGrafik.Text = "Graphics";
             this.BtnGrafik.UseVisualStyleBackColor = true;
             this.BtnGrafik.Click += new System.EventHandler(this.BtnGrafik_Click);
             // 
@@ -271,7 +271,7 @@ namespace Personel_Kayit1_App
             this.BtnIstatistik.Name = "BtnIstatistik";
             this.BtnIstatistik.Size = new System.Drawing.Size(155, 41);
             this.BtnIstatistik.TabIndex = 7;
-            this.BtnIstatistik.Text = "İstatistik";
+            this.BtnIstatistik.Text = "Statistics";
             this.BtnIstatistik.UseVisualStyleBackColor = true;
             this.BtnIstatistik.Click += new System.EventHandler(this.BtnIstatistik_Click);
             // 
@@ -281,7 +281,7 @@ namespace Personel_Kayit1_App
             this.BtnTemizle.Name = "BtnTemizle";
             this.BtnTemizle.Size = new System.Drawing.Size(155, 41);
             this.BtnTemizle.TabIndex = 6;
-            this.BtnTemizle.Text = "Temizle";
+            this.BtnTemizle.Text = "Clear";
             this.BtnTemizle.UseVisualStyleBackColor = true;
             this.BtnTemizle.Click += new System.EventHandler(this.BtnTemizle_Click);
             // 
@@ -291,7 +291,7 @@ namespace Personel_Kayit1_App
             this.BtnGuncelle.Name = "BtnGuncelle";
             this.BtnGuncelle.Size = new System.Drawing.Size(155, 41);
             this.BtnGuncelle.TabIndex = 5;
-            this.BtnGuncelle.Text = "Güncelle";
+            this.BtnGuncelle.Text = "Update";
             this.BtnGuncelle.UseVisualStyleBackColor = true;
             this.BtnGuncelle.Click += new System.EventHandler(this.BtnGuncelle_Click);
             // 
@@ -301,7 +301,7 @@ namespace Personel_Kayit1_App
             this.BtnSil.Name = "BtnSil";
             this.BtnSil.Size = new System.Drawing.Size(155, 41);
             this.BtnSil.TabIndex = 4;
-            this.BtnSil.Text = "Sil";
+            this.BtnSil.Text = "Delete";
             this.BtnSil.UseVisualStyleBackColor = true;
             this.BtnSil.Click += new System.EventHandler(this.BtnSil_Click);
             // 
@@ -311,7 +311,7 @@ namespace Personel_Kayit1_App
             this.BtnKaydet.Name = "BtnKaydet";
             this.BtnKaydet.Size = new System.Drawing.Size(155, 41);
             this.BtnKaydet.TabIndex = 3;
-            this.BtnKaydet.Text = "Kaydet";
+            this.BtnKaydet.Text = "Save";
             this.BtnKaydet.UseVisualStyleBackColor = true;
             this.BtnKaydet.Click += new System.EventHandler(this.BtnKaydet_Click);
             // 
@@ -321,7 +321,7 @@ namespace Personel_Kayit1_App
             this.BtnListele.Name = "BtnListele";
             this.BtnListele.Size = new System.Drawing.Size(155, 41);
             this.BtnListele.TabIndex = 2;
-            this.BtnListele.Text = "Listele";
+            this.BtnListele.Text = "List";
             this.BtnListele.UseVisualStyleBackColor = true;
             this.BtnListele.Click += new System.EventHandler(this.BtnListele_Click);
             // 
@@ -448,7 +448,7 @@ namespace Personel_Kayit1_App
             this.label8.Visible = false;
             this.label8.TextChanged += new System.EventHandler(this.label8_TextChanged);
             // 
-            // Form1
+            // FrmMainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 28F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -461,7 +461,7 @@ namespace Personel_Kayit1_App
             this.Controls.Add(this.groupBox1);
             this.Font = new System.Drawing.Font("Corbel", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.Margin = new System.Windows.Forms.Padding(4);
-            this.Name = "Form1";
+            this.Name = "FrmMainForm";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);

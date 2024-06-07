@@ -51,7 +51,7 @@
             this.chart1.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.SeaGreen;
             series1.ChartArea = "ChartArea1";
             series1.Legend = "Legend1";
-            series1.Name = "Sehirler";
+            series1.Name = "Cities";
             this.chart1.Series.Add(series1);
             this.chart1.Size = new System.Drawing.Size(453, 314);
             this.chart1.TabIndex = 0;
@@ -67,7 +67,7 @@
             this.chart2.Name = "chart2";
             series2.ChartArea = "ChartArea1";
             series2.Legend = "Legend1";
-            series2.Name = "Meslek-Maas";
+            series2.Name = "Job-Salary";
             this.chart2.Series.Add(series2);
             this.chart2.Size = new System.Drawing.Size(445, 314);
             this.chart2.TabIndex = 1;
