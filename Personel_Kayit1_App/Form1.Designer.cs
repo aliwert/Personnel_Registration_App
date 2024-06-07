@@ -272,6 +272,7 @@ namespace Personel_Kayit1_App
             this.BtnIstatistik.TabIndex = 7;
             this.BtnIstatistik.Text = "İstatistik";
             this.BtnIstatistik.UseVisualStyleBackColor = true;
+            this.BtnIstatistik.Click += new System.EventHandler(this.BtnIstatistik_Click);
             // 
             // BtnTemizle
             // 

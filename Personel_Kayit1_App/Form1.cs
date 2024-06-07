@@ -136,5 +136,11 @@ namespace Personel_Kayit1_App
             MessageBox.Show("Personel Bilgi Guncellendi");
 
         }
+
+        private void BtnIstatistik_Click(object sender, EventArgs e)
+        {
+            FormStatistics fr = new FormStatistics();
+            fr.Show();
+        }
     }
 }
