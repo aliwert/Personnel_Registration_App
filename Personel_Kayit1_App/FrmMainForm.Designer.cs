@@ -6,7 +6,7 @@ using System.Xml.Linq;
 
 namespace Personel_Kayit1_App
 {
-    partial class Form1
+    partial class FrmMainForm
     {
         /// <summary>
         ///  Required designer variable.
@@ -35,7 +35,7 @@ namespace Personel_Kayit1_App
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMainForm));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label7 = new System.Windows.Forms.Label();
             this.MskMaas = new System.Windows.Forms.MaskedTextBox();
@@ -263,6 +263,7 @@ namespace Personel_Kayit1_App
             this.BtnGrafik.TabIndex = 8;
             this.BtnGrafik.Text = "Grafikler";
             this.BtnGrafik.UseVisualStyleBackColor = true;
+            this.BtnGrafik.Click += new System.EventHandler(this.BtnGrafik_Click);
             // 
             // BtnIstatistik
             // 

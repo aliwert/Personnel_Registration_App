@@ -11,9 +11,9 @@ using System.Data.SqlClient;
 
 namespace Personel_Kayit1_App
 {
-    public partial class Form1 : Form
+    public partial class FrmMainForm : Form
     {
-        public Form1()
+        public FrmMainForm()
         {
             InitializeComponent();
         }
@@ -141,6 +141,12 @@ namespace Personel_Kayit1_App
         {
             FormStatistics fr = new FormStatistics();
             fr.Show();
+        }
+
+        private void BtnGrafik_Click(object sender, EventArgs e)
+        {
+            FormGraphics g = new FormGraphics();
+            g.Show();
         }
     }
 }
